@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.DefaultCompany.BalloonYummy",
+  "applicationId": "com.DefaultCompany.ClickYummy",
   "variantName": "release",
   "elements": []
 }

@@ -5,10 +5,14 @@ ScriptsOnlyBuild:
     - BubbleMovement
     - DestroySelf
     - GameController
+    - LoadingScreen
     - MenuController
+    - MusicController
+    - OpenLink
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
+    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.SpriteSkinComposite
     - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
     Unity.2D.IK.Editor.dll:
@@ -54,6 +58,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.RawImage
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -100,8 +105,14 @@ ScriptsOnlyBuild:
     fullTypeName: MenuController
     methodName: PauseGame
   - assembly: Assembly-CSharp
+    fullTypeName: OpenLink
+    methodName: OpenURL
+  - assembly: Assembly-CSharp
     fullTypeName: MenuController
     methodName: ExitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GameController
+    methodName: changeMusic
   - assembly: Assembly-CSharp
     fullTypeName: GameController
     methodName: PauseGame
@@ -117,6 +128,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GameController
     methodName: PauseGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GameController
+    methodName: changeMusic
   sceneClasses:
     Assets/Scenes/Game.unity:
     - Class: 1
@@ -144,9 +158,11 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16646}
+      Script: {instanceID: 16644}
     - Class: 114
-      Script: {instanceID: 16698}
+      Script: {instanceID: 16696}
+    - Class: 114
+      Script: {instanceID: 17620}
     - Class: 114
       Script: {instanceID: 17944}
     - Class: 114
@@ -189,7 +205,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Menu.unity:
+    Assets/Scenes/Load.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -206,24 +222,16 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16646}
+      Script: {instanceID: 16696}
     - Class: 114
-      Script: {instanceID: 16698}
-    - Class: 114
-      Script: {instanceID: 17414}
+      Script: {instanceID: 17412}
     - Class: 114
       Script: {instanceID: 17944}
     - Class: 114
       Script: {instanceID: 18202}
-    - Class: 114
-      Script: {instanceID: 18942}
     - Class: 114
       Script: {instanceID: 19700}
     - Class: 114
@@ -238,6 +246,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 22040}
     - Class: 114
       Script: {instanceID: 22450}
+    - Class: 114
+      Script: {instanceID: 37428}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -246,7 +256,64 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 212
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16644}
+    - Class: 114
+      Script: {instanceID: 16696}
+    - Class: 114
+      Script: {instanceID: 17582}
+    - Class: 114
+      Script: {instanceID: 17944}
+    - Class: 114
+      Script: {instanceID: 18202}
+    - Class: 114
+      Script: {instanceID: 18942}
+    - Class: 114
+      Script: {instanceID: 21098}
+    - Class: 114
+      Script: {instanceID: 21816}
+    - Class: 114
+      Script: {instanceID: 22040}
+    - Class: 114
+      Script: {instanceID: 22450}
+    - Class: 114
+      Script: {instanceID: 42606}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -395,6 +462,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 8a22f616c1df001f7c2c4cdc5617f222
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MusicController
   - hash:
       serializedVersion: 2
       Hash: 10329200f0224e799f760ed316e48e0f
@@ -1123,7 +1196,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 29a79d1a80a43f6b7fb7e629a3035f42
+      Hash: 3388c43e0e29c949b33ad72f66de0152
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameController
@@ -1475,8 +1548,21 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f556a19896c77535b8d8f1084c06a656
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LoadingScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: OpenLink
   platform: 13
   scenePathNames:
+  - Assets/Scenes/Load.unity
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Game.unity
-  playerPath: "D:/Game/Unity Project Build/Game bong b\xF3ng c\u1EE7a Long/BalloonYummy.apk"
+  playerPath: "D:/Game/Unity Project Build/Game bong b\xF3ng c\u1EE7a Long/BalloonYummy_1.0.0.apk"

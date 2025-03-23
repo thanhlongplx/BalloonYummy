@@ -9,7 +9,7 @@ INJECTED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\G
 INJECTED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 	package
-		ADDED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:70-111
+		ADDED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:70-109
 		INJECTED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 		INJECTED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	android:versionName
@@ -17,7 +17,7 @@ INJECTED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\G
 		ADDED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 		INJECTED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:112-158
+		ADDED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:110-156
 	android:versionCode
 		INJECTED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 		ADDED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
@@ -25,7 +25,7 @@ INJECTED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\G
 	xmlns:android
 		ADDED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:159-199
+		ADDED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:157-197
 application
 ADDED from D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
 MERGED from [:unityLibrary] D:\HOCTAPTAIITC\Unity\Click Yummy\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:5-66:19

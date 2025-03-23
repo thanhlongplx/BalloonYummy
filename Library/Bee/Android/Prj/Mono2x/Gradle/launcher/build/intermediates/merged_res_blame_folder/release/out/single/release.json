@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
-    },
-    {
         "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-xhdpi_app_icon_round.png.flat",
         "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-xhdpi\\app_icon_round.png"
     },
@@ -20,32 +16,24 @@
         "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-xhdpi\\app_icon.png"
     },
     {
-        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_app_icon_round.png.flat",
+        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-xxhdpi\\app_icon_round.png"
     },
     {
         "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-ldpi_app_icon.png.flat",
         "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-ldpi\\app_icon.png"
     },
     {
-        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_ic_launcher_background.png.flat",
-        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
-    },
-    {
-        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_background.png"
+        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-ldpi_app_icon_round.png.flat",
+        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-ldpi\\app_icon_round.png"
     },
     {
         "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-hdpi_app_icon.png.flat",
         "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-hdpi\\app_icon.png"
     },
     {
-        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-anydpi-v26_app_icon_round.xml.flat",
-        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
+        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_app_icon.png.flat",
+        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-xxhdpi\\app_icon.png"
     },
     {
         "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-xxxhdpi_app_icon.png.flat",
@@ -54,50 +42,6 @@
     {
         "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-mdpi_app_icon.png.flat",
         "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
-    },
-    {
-        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-ldpi_ic_launcher_background.png.flat",
-        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-ldpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-ldpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-ldpi\\ic_launcher_foreground.png"
-    },
-    {
-        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-xhdpi_ic_launcher_background.png.flat",
-        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_app_icon_round.png.flat",
-        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-xxhdpi\\app_icon_round.png"
-    },
-    {
-        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
-    },
-    {
-        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-ldpi_app_icon_round.png.flat",
-        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-ldpi\\app_icon_round.png"
-    },
-    {
-        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_app_icon.png.flat",
-        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-xxhdpi\\app_icon.png"
-    },
-    {
-        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-mdpi_ic_launcher_background.png.flat",
-        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
-    },
-    {
-        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-anydpi-v26_app_icon.xml.flat",
-        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-anydpi-v26\\app_icon.xml"
-    },
-    {
-        "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-hdpi_ic_launcher_background.png.flat",
-        "source": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\mipmap-hdpi\\ic_launcher_background.png"
     },
     {
         "merged": "D:\\HOCTAPTAIITC\\Unity\\Click Yummy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\merged_res\\release\\mipmap-hdpi_app_icon_round.png.flat",

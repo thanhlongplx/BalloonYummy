@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 
 public class DestroySelf : MonoBehaviour, IPointerClickHandler
 {
-    // Hàm này sẽ xóa game object sở hữu script này
+    // This function will delete object got this script 
     public AudioSource bublePop;
     public void DestroyThis()
     {
@@ -12,10 +12,10 @@ public class DestroySelf : MonoBehaviour, IPointerClickHandler
         Destroy(gameObject);
     }
 
-    // Phương thức này sẽ được gọi khi game object bị nhấp chuột
+    // This function will be call when game object was clicked
     public void OnPointerClick(PointerEventData eventData)
     {
         bublePop.Play();
-        DestroyThis(); // Gọi hàm để xóa game object
+        DestroyThis(); // Call the function to destroy game object
     }
 }

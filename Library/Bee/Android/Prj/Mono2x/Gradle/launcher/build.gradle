@@ -5,7 +5,7 @@ dependencies {
     }
 
 android {
-    ndkPath "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
+    ndkPath "D:/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
 
     compileSdkVersion 32
     buildToolsVersion '32.0.0'
@@ -18,7 +18,7 @@ android {
     defaultConfig {
         minSdkVersion 22
         targetSdkVersion 32
-        applicationId 'com.DefaultCompany.BalloonYummy'
+        applicationId 'com.DefaultCompany.ClickYummy'
         ndk {
             abiFilters 'armeabi-v7a'
         }
