@@ -45,7 +45,7 @@ public class BubbleMovement : MonoBehaviour
         // Phát âm thanh và bắt đầu quá trình biến mất
         PlaySoundAndTriggerEffects();
 
-        Debug.Log(gameController.currentScore);
+        
     }
 
     private void PlaySoundAndTriggerEffects()
@@ -63,8 +63,7 @@ public class BubbleMovement : MonoBehaviour
         {
             ParticleSystem effect = Instantiate(explosionEffect, transform.position, Quaternion.identity);
             // Random màu sắc cho Particle System
-            var main = effect.main;
-            main.startColor = new ParticleSystem.MinMaxGradient(GetRandomColor()); // Gán màu sắc ngẫu nhiên
+           
             effect.Play(); // Phát hiệu ứng nổ
 
             Destroy(effect.gameObject, effect.main.duration); // Xóa Particle System sau khi phát xong

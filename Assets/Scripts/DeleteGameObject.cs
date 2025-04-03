@@ -8,7 +8,7 @@ public class DestroySelf : MonoBehaviour, IPointerClickHandler
     public void DestroyThis()
     {
         bublePop.Play();
-        Debug.Log("Amthanh");
+        
         Destroy(gameObject);
     }
 

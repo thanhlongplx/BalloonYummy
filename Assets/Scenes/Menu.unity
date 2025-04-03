@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 845f5d556c99cfc46a0bb4583e4c280a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  click: {fileID: 8300000, guid: 6dd0f116cc38d764fb8911a71f7fd67e, type: 3}
+  click: {fileID: 8300000, guid: 632010c0d0ad024458cc34d8b34cf19f, type: 3}
   highScoreText: {fileID: 1519913976}
   highScoreDateText: {fileID: 836596479}
   highScorePanel: {fileID: 306804918}
@@ -1228,6 +1228,7 @@ GameObject:
   - component: {fileID: 501590325}
   - component: {fileID: 501590324}
   - component: {fileID: 501590323}
+  - component: {fileID: 501590326}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -1298,7 +1299,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 501590324}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 501590326}
+        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
+        m_MethodName: OpenURL
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: https://www.facebook.com/
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &501590324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1337,6 +1350,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 501590321}
   m_CullTransparentMesh: 1
+--- !u!114 &501590326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501590321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29499b1a16dc51344b2363fa6b0ad87b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2034,7 +2059,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Game
+          m_StringArgument: LoadGame
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 8628460}

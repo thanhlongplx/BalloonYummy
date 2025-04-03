@@ -99,6 +99,9 @@ ScriptsOnlyBuild:
     fullTypeName: MenuController
     methodName: TogglePanel
   - assembly: Assembly-CSharp
+    fullTypeName: OpenLink
+    methodName: OpenURL
+  - assembly: Assembly-CSharp
     fullTypeName: MenuController
     methodName: LoadSceneByName
   - assembly: Assembly-CSharp
@@ -116,6 +119,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GameController
     methodName: PauseGame
+  - assembly: Assembly-CSharp
+    fullTypeName: MusicController
+    methodName: ToggleMusic
   - assembly: Assembly-CSharp
     fullTypeName: GameController
     methodName: PauseGame
@@ -158,31 +164,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16644}
+      Script: {instanceID: 16646}
     - Class: 114
-      Script: {instanceID: 16696}
+      Script: {instanceID: 16698}
     - Class: 114
-      Script: {instanceID: 17620}
+      Script: {instanceID: 17622}
     - Class: 114
-      Script: {instanceID: 17944}
+      Script: {instanceID: 17946}
     - Class: 114
-      Script: {instanceID: 18076}
+      Script: {instanceID: 18078}
     - Class: 114
-      Script: {instanceID: 18202}
+      Script: {instanceID: 18204}
     - Class: 114
-      Script: {instanceID: 20824}
+      Script: {instanceID: 20830}
     - Class: 114
-      Script: {instanceID: 21098}
+      Script: {instanceID: 21104}
     - Class: 114
-      Script: {instanceID: 21464}
+      Script: {instanceID: 21470}
     - Class: 114
-      Script: {instanceID: 21816}
+      Script: {instanceID: 21822}
     - Class: 114
-      Script: {instanceID: 22040}
+      Script: {instanceID: 22046}
     - Class: 114
-      Script: {instanceID: 22450}
+      Script: {instanceID: 22456}
     - Class: 114
-      Script: {instanceID: 22508}
+      Script: {instanceID: 22514}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -225,29 +231,78 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16696}
+      Script: {instanceID: 16698}
     - Class: 114
-      Script: {instanceID: 17412}
+      Script: {instanceID: 17414}
     - Class: 114
-      Script: {instanceID: 17944}
+      Script: {instanceID: 17946}
     - Class: 114
-      Script: {instanceID: 18202}
+      Script: {instanceID: 18204}
     - Class: 114
-      Script: {instanceID: 19700}
+      Script: {instanceID: 19704}
     - Class: 114
-      Script: {instanceID: 19842}
+      Script: {instanceID: 19846}
     - Class: 114
-      Script: {instanceID: 20166}
+      Script: {instanceID: 20170}
     - Class: 114
-      Script: {instanceID: 21098}
+      Script: {instanceID: 20378}
     - Class: 114
-      Script: {instanceID: 21816}
+      Script: {instanceID: 21104}
     - Class: 114
-      Script: {instanceID: 22040}
+      Script: {instanceID: 21822}
     - Class: 114
-      Script: {instanceID: 22450}
+      Script: {instanceID: 22046}
     - Class: 114
-      Script: {instanceID: 37428}
+      Script: {instanceID: 22456}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/LoadGame.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16698}
+    - Class: 114
+      Script: {instanceID: 17946}
+    - Class: 114
+      Script: {instanceID: 18204}
+    - Class: 114
+      Script: {instanceID: 20378}
+    - Class: 114
+      Script: {instanceID: 21104}
+    - Class: 114
+      Script: {instanceID: 21822}
+    - Class: 114
+      Script: {instanceID: 22046}
+    - Class: 114
+      Script: {instanceID: 22456}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -286,27 +341,27 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16644}
+      Script: {instanceID: 16646}
     - Class: 114
-      Script: {instanceID: 16696}
+      Script: {instanceID: 16698}
     - Class: 114
-      Script: {instanceID: 17582}
+      Script: {instanceID: 17584}
     - Class: 114
-      Script: {instanceID: 17944}
+      Script: {instanceID: 17946}
     - Class: 114
-      Script: {instanceID: 18202}
+      Script: {instanceID: 18204}
     - Class: 114
-      Script: {instanceID: 18942}
+      Script: {instanceID: 18944}
     - Class: 114
-      Script: {instanceID: 21098}
+      Script: {instanceID: 19236}
     - Class: 114
-      Script: {instanceID: 21816}
+      Script: {instanceID: 21104}
     - Class: 114
-      Script: {instanceID: 22040}
+      Script: {instanceID: 21822}
     - Class: 114
-      Script: {instanceID: 22450}
+      Script: {instanceID: 22046}
     - Class: 114
-      Script: {instanceID: 42606}
+      Script: {instanceID: 22456}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -464,7 +519,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 8a22f616c1df001f7c2c4cdc5617f222
+      Hash: 9578d65f185ab82ee7f5fba83c3bde8b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MusicController
@@ -740,6 +795,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: OpenLink
+  - hash:
+      serializedVersion: 2
       Hash: a9340df851e094f0e1a209d8b81aaedc
     assemblyName: Unity.2D.Tilemap.Extras
     namespaceName: UnityEngine.Tilemaps
@@ -906,6 +967,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: ObjectSpin
+  - hash:
+      serializedVersion: 2
+      Hash: f556a19896c77535b8d8f1084c06a656
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LoadingScreen
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1548,21 +1615,10 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: f556a19896c77535b8d8f1084c06a656
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: LoadingScreen
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: OpenLink
   platform: 13
   scenePathNames:
   - Assets/Scenes/Load.unity
+  - Assets/Scenes/LoadGame.unity
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Game.unity
   playerPath: "D:/Game/Unity Project Build/Game bong b\xF3ng c\u1EE7a Long/BalloonYummy_1.0.0.apk"

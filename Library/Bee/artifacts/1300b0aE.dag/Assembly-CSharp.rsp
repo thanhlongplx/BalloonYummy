@@ -377,6 +377,8 @@
 -analyzer:"D:/2022.3.12f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/2022.3.12f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/BalloonManager.cs"
+"Assets/Scripts/BomManager.cs"
+"Assets/Scripts/Boom.cs"
 "Assets/Scripts/BubbleMovement.cs"
 "Assets/Scripts/Controller/GameController.cs"
 "Assets/Scripts/Controller/LoadingScreen.cs"

@@ -6,11 +6,14 @@ public class MusicController : MonoBehaviour
     public AudioSource musicSource; // Tham chiếu đến AudioSource đã có
     public TextMeshProUGUI musicStatusText; // Tham chiếu đến TextMeshPro cho trạng thái âm nhạc
 
+    private const string MusicPrefKey = "MusicEnabled"; // Khóa để lưu trạng thái âm nhạc
+
     void Start()
     {
         // Đảm bảo AudioSource không phát tự động
-        musicSource.enabled = false; // Đặt AudioSource không hoạt động ban đầu
+        musicSource.enabled = PlayerPrefs.GetInt(MusicPrefKey, 1) == 1; // Mặc định là bật
         UpdateMusicStatus(); // Cập nhật trạng thái ban đầu cho nút
+        
     }
 
     public void ToggleMusic()
@@ -32,6 +35,10 @@ public class MusicController : MonoBehaviour
                 Debug.Log("Music is stopped"); // Thông báo trong Console
             }
 
+            // Lưu trạng thái vào PlayerPrefs
+            PlayerPrefs.SetInt(MusicPrefKey, musicSource.enabled ? 1 : 0);
+            PlayerPrefs.Save(); // Lưu thay đổi
+
             // Cập nhật trạng thái cho nút
             UpdateMusicStatus();
         }
@@ -44,6 +51,6 @@ public class MusicController : MonoBehaviour
     private void UpdateMusicStatus()
     {
         // Cập nhật nội dung của TextMeshPro dựa trên trạng thái âm nhạc
-        musicStatusText.text = musicSource.enabled ? "Off" : "On";
+        musicStatusText.text = musicSource.enabled ? "On" : "Off"; // Đổi trạng thái cho đúng
     }
 }

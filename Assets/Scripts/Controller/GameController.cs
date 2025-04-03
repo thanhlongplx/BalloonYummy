@@ -4,9 +4,11 @@ using TMPro;
 
 public class GameController : MonoBehaviour
 {
+    
     public int Level = 1;
     public GameObject PausePannel;
     public GameObject ChangeMusicPannel;
+    public GameObject ChangeGameModePannel;
     public GameObject PauseButton;
     public int targetScore = 10; // point request to play sound
     public AudioClip scoreReachedClip; // This sound will be played when the target score is reached
@@ -21,6 +23,7 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
+        
         audioSource = gameObject.AddComponent<AudioSource>(); // Thêm AudioSource
         LoadHighScore(); // Tải điểm cao nhất
         UpdateScoreText(); // Cập nhật hiển thị điểm ban đầu
@@ -99,6 +102,8 @@ public class GameController : MonoBehaviour
         {
             audioSource.PlayOneShot(click);
         }
+         PlayerPrefs.SetInt("MusicEnabled", PlayerPrefs.GetInt("MusicEnabled", 1));
+        PlayerPrefs.Save();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Reload current scene
 
     }
@@ -131,6 +136,14 @@ public class GameController : MonoBehaviour
     {
         showChangeMusicPanel(ChangeMusicPannel);
     }
+    public void changeGameMode()
+    {
+        showChangeMusicPanel(ChangeGameModePannel);
+    }
+    private void showGameModePanel(GameObject panel)
+    {
+        panel.SetActive(!panel.activeSelf); //Convert current status
+    }
     private void showChangeMusicPanel(GameObject panel)
     {
         panel.SetActive(!panel.activeSelf); //Convert current status
@@ -143,6 +156,7 @@ public class GameController : MonoBehaviour
 
     public void LoadSceneByName(string sceneName)
     {
+        
         // Check the sound
         if (click != null)
         {

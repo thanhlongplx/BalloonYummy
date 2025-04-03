@@ -8,7 +8,7 @@ public class LoadingScreen : MonoBehaviour
 
     public Image loadingBar; // Tham chiếu đến phần tử UI thanh load
     private float currentLoad = 0f; // Tiến trình tải hiện tại
-    public string sceneNameLoad = "Menu";
+    public string sceneNameLoad;
     public void Start()
     {
         Time.timeScale = 1;

@@ -416,18 +416,6 @@
       "DebugActionIndex": 3
     },
     {
-      "Annotation": "CopyFiles D:/HOCTAPTAIITC/Unity/Click Yummy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets1.resource",
-      "DisplayName": "Copying sharedassets1.resource",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/PlayerDataCache/Android/Data/sharedassets1.resource"
-      ],
-      "Outputs": [
-        "D:/HOCTAPTAIITC/Unity/Click Yummy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets1.resource"
-      ],
-      "DebugActionIndex": 4
-    },
-    {
       "Annotation": "CopyFiles D:/HOCTAPTAIITC/Unity/Click Yummy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets2.resource",
       "DisplayName": "Copying sharedassets2.resource",
       "ActionType": "CopyFiles",
@@ -436,6 +424,18 @@
       ],
       "Outputs": [
         "D:/HOCTAPTAIITC/Unity/Click Yummy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets2.resource"
+      ],
+      "DebugActionIndex": 4
+    },
+    {
+      "Annotation": "CopyFiles D:/HOCTAPTAIITC/Unity/Click Yummy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets3.resource",
+      "DisplayName": "Copying sharedassets3.resource",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Android/Data/sharedassets3.resource"
+      ],
+      "Outputs": [
+        "D:/HOCTAPTAIITC/Unity/Click Yummy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets3.resource"
       ],
       "DebugActionIndex": 5
     },
@@ -462,8 +462,8 @@
         "Library/PlayerDataCache/Android/Data/data.unity3d",
         "Library/PlayerDataCache/Android/Data/RuntimeInitializeOnLoads.json",
         "Library/PlayerDataCache/Android/Data/ScriptingAssemblies.json",
-        "Library/PlayerDataCache/Android/Data/sharedassets1.resource",
         "Library/PlayerDataCache/Android/Data/sharedassets2.resource",
+        "Library/PlayerDataCache/Android/Data/sharedassets3.resource",
         "D:/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "D:/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "D:/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll",
@@ -9794,8 +9794,8 @@
         "Library/PlayerDataCache/Android/Data/data.unity3d",
         "Library/PlayerDataCache/Android/Data/RuntimeInitializeOnLoads.json",
         "Library/PlayerDataCache/Android/Data/ScriptingAssemblies.json",
-        "Library/PlayerDataCache/Android/Data/sharedassets1.resource",
         "Library/PlayerDataCache/Android/Data/sharedassets2.resource",
+        "Library/PlayerDataCache/Android/Data/sharedassets3.resource",
         "Library/Bee/artifacts/Android/boot.config",
         "D:/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "D:/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.ARModule.dll",
